@@ -10,12 +10,14 @@ public class Main {
         motorcycle.setBrand("Mamochka");
         motorcycle.setYear(2015);
         motorcycle.setHasSidecar(true);
-
+        
         System.out.println(car.getYear());
         System.out.println(car.getBrand());
+        System.out.println(car.getNumberOfDoors());
         car.StartEngine();
         System.out.println(motorcycle.getYear());
         System.out.println(motorcycle.getBrand());
+        System.out.println(motorcycle.isHasSidecar());
         motorcycle.StartEngine();
     }
 }
